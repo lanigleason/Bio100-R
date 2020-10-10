@@ -3,4 +3,4 @@ Binder implementation of R for CSU Sacramento BIO 100
 
 
 
-RStudio: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/cvisger/Bio100-R/master?urlpath=rstudio)
+RStudio: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lanigleason/Bio100-R/master?urlpath=rstudio)
