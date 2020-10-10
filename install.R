@@ -1,2 +1,5 @@
 install.packages("ggplot2")
 install.packages("Hmisc")
+install.packages("diveRsity", dependencies = TRUE)
+install.packages("survival")
+install.packages("survminer")
