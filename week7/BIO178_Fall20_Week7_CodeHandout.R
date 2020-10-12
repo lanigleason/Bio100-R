@@ -1,9 +1,10 @@
 #BIO178 Week 7 Code Handout
+#RStudio binder version
 
-library(survival) #install 2 new packages needed for survival analysis and plotting
-library(survminer) #install 2 new packages needed for survival analysis and plotting
+library(survival) #load pre-installed packages needed for survival analysis and plotting
+library(survminer) #load pre-installed packages needed for survival analysis and plotting
 
-ab_data<-read.csv("survival_MAC_CA_forBIO178.csv", header=TRUE) #read in the abalone dataset provided
+ab_data<-read.csv("week7/survival_MAC_CA_forBIO178.csv", header=TRUE) #read in the abalone dataset provided, specifying that it is in the week 7 folder
 head(ab_data) #make sure data loaded correctly - should be two columns, sutime and farm
 
 surv_object<-Surv(time=ab_data$sutime) #create a survival object. this is a compiled version of the survival time data that can be interpreted by the function we will use next
